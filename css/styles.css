@@ -1,305 +1,301 @@
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 i {
-    color: black;
+	color: black;
 }
 
 i:hover {
-    scale: 110%;
+	scale: 110%;
 }
 
 .text-margin-40 {
-    padding-top: 20px;
-    margin-right: 40px;
-    margin-left: 40px;
-    padding-bottom: 40px;
+	padding-top: 20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-bottom: 40px;
 }
 
 .text-max {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #title-card {
-    background-color: #75cfb8;
+	background-color: #75cfb8;
 }
 
 .headshot-image {
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    margin: 30px auto 30px auto;
+	height: 200px;
+	width: 200px;
+	/* object-fit: cover; */
+	/* object-position: top; */
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 10px;
+	border-color: white;
+	/* margin: 30px auto 30px auto; */
 }
 
 .name {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .title-text {
-    max-width: 1000px;
-    /* margin: auto; */
-    text-align: center;
+	max-width: 1000px;
+	/* margin: auto; */
+	text-align: center;
 }
 
 .professional-title {
-    margin-top: 20px;
-    padding-bottom: 30px;
+	margin-top: 20px;
+	padding-bottom: 30px;
 }
 
 .dotted-line {
-    border-style: dotted none none;
-    border-width: 7px;
-    border-color: #00a1a1;
-    width: 400px;
-    /* margin: 100px auto 100px auto; */
+	border-style: dotted none none;
+	border-width: 7px;
+	border-color: #00a1a1;
+	width: 400px;
+	/* margin: 100px auto 100px auto; */
 }
 
 #about-me {
-    margin: 0px auto 0px auto;
-    background-color: #bbdfc8;
+	margin: 0px auto 0px auto;
+	background-color: #bbdfc8;
 }
 
 .about-me-title {
-    padding-top: 40px;
-    color: #27444b;
-    text-align: center;
+	padding-top: 40px;
+	color: #27444b;
+	text-align: center;
 }
 
 .about-me-text {
-    text-align: left;
+	text-align: left;
 }
 
 #experience {
-    text-align: left;
-    margin: 0 auto 0 auto;
-    background-color: #bbdfc8;
+	text-align: left;
+	margin: 0 auto 0 auto;
+	background-color: #bbdfc8;
 }
 
 .experience-title {
-    padding-top: 40px;
-    color: #27444b;
-    text-align: center;
+	padding-top: 40px;
+	color: #27444b;
+	text-align: center;
 }
 
 .date-range {
-    color: rgb(63, 62, 62);
-    font-size: 0.75rem;
+	color: rgb(63, 62, 62);
+	font-size: 0.75rem;
 }
 
 .job {
-    font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif;
 }
 
 .project-name {
-    font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif;
 }
 
 .job-details {
-    font-size: 0.90rem;
+	font-size: 0.9rem;
 }
 
 .project-details {
-    font-size: 0.90rem;
+	font-size: 0.9rem;
 }
 
 #skills {
-    text-align: left;
-    margin: 0 auto 0 auto;
-    background-color: #f4f9f4;
+	text-align: left;
+	margin: 0 auto 0 auto;
+	background-color: #f4f9f4;
 }
 
 .skills-title {
-    color: #27444b;
-    padding-top: 40px;
-    text-align: center;
+	color: #27444b;
+	padding-top: 40px;
+	text-align: center;
 }
 
 .skills-list {
-    margin: 0 auto 0 auto;
-    font-size: 0.90rem;
-    border-spacing: 40px 0px;
+	margin: 0 auto 0 auto;
+	font-size: 0.9rem;
+	border-spacing: 40px 0px;
 }
 
 .skill-subject {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    line-height: 2;
-    color: #27444b;
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	line-height: 2;
+	color: #27444b;
 }
 
 p {
-    line-height: 2;
+	line-height: 2;
 }
 
 h1 {
-    margin: 0 auto 30px auto;
-    font-family: 'Merriweather', serif;
-    font-size: 4rem;
-    line-height: 1;
-    color: white;
-    /* 16px = 100% = 1em */
+	margin: 0 auto 30px auto;
+	font-family: 'Merriweather', serif;
+	font-size: 4rem;
+	line-height: 1;
+	color: white;
+	/* 16px = 100% = 1em */
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: normal;
-    color: white;
-    margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: normal;
+	color: white;
+	margin: 0;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #contact-me {
-    padding-bottom: 80px;
-    background-color: #bbdfc8;
+	padding-bottom: 80px;
+	background-color: #bbdfc8;
 }
 
 .contact-me-title {
-    color: #27444b;
-    padding-top: 80px;
-    text-align: center;
+	color: #27444b;
+	padding-top: 80px;
+	text-align: center;
 }
 
 .Contact_me_btn {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-size: 30px;
-    font-weight: 100;
-    padding: 10px;
-    background-color: #66BFBF;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    width: 200px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-size: 30px;
+	font-weight: 100;
+	padding: 10px;
+	background-color: #66bfbf;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	width: 200px;
 }
 
 .Contact_me_btn:hover {
-    background: #27444b;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    text-decoration: none;
+	background: #27444b;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-decoration: none;
 }
 
 #footer {
-    background-color: #f4f9f4;
-    padding: 30px;
+	background-color: #f4f9f4;
+	padding: 30px;
 }
 
 .footer-link {
-    color: #27444b;
-    margin: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
+	color: #27444b;
+	margin: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
 }
 
 .project-link {
-    color: #27444b;
-    display: inline-block;
-    text-decoration: underline;
+	color: #27444b;
+	display: inline-block;
+	text-decoration: underline;
 }
 
 .project-link:hover {
-    color: #bbdfc8;
+	color: #bbdfc8;
 }
 
 .footer-link:hover {
-    color: #bbdfc8;
+	color: #bbdfc8;
 }
 
 .copyright {
-    color: #27444b;
+	color: #27444b;
 }
-
 
 /* Add a black background color to the top navigation */
 
 .topnav {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
-    /* Position the navbar at the top of the page */
-    width: 100%;
-    /* Full width */
-    z-index: 500;
+	background-color: #333;
+	overflow: hidden;
+	position: fixed;
+	/* Set the navbar to fixed position */
+	top: 0;
+	/* Position the navbar at the top of the page */
+	width: 100%;
+	/* Full width */
+	z-index: 500;
 }
-
 
 /* Style the links inside the navigation bar */
 
 .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
-
 
 /* Change the color of links on hover */
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+	background-color: #ddd;
+	color: black;
 }
-
 
 /* Add a color to the active/current link */
 
 .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+	background-color: #4caf50;
+	color: white;
 }
 
 @media only screen and (max-width: 720px) {
-    .name {
-        margin: 20px 40px;
-        font-size: 2em;
-    }
-    .professional-title {
-        margin-top: 20px;
-        padding-bottom: 30px;
-        font-size: 1.5em;
-    }
-    .dotted-line {
-        border-style: dotted none none;
-        border-width: 7px;
-        border-color: #00a1a1;
-        width: 30vw;
-    }
+	.name {
+		margin: 20px 40px;
+		font-size: 2em;
+	}
+	.professional-title {
+		margin-top: 20px;
+		padding-bottom: 30px;
+		font-size: 1.5em;
+	}
+	.dotted-line {
+		border-style: dotted none none;
+		border-width: 7px;
+		border-color: #00a1a1;
+		width: 30vw;
+	}
 }
 
 .projects-title {
-    color: #27444b;
-    padding-top: 40px;
-    text-align: center;
+	color: #27444b;
+	padding-top: 40px;
+	text-align: center;
 }
 
 #projects {
-    text-align: left;
-    margin: 0 auto 0 auto;
-    background-color: #f4f9f4;
+	text-align: left;
+	margin: 0 auto 0 auto;
+	background-color: #f4f9f4;
 }
