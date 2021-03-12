@@ -32,15 +32,6 @@
 	</head>
 
 	<body>
-		<!-- <div class="navbar">
-        <div class="topnav">
-            <a class="active" href="#title-card">Home</a>
-            <a href="#about-me">About Me</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact-me">Contact Me</a>
-        </div>
-    </div> -->
 		<div id="title-card">
 			<div class="text-max">
 				<img
@@ -50,7 +41,21 @@
 				/>
 				<div class="title-text">
 					<h1 class="text-margin-40 name">Gregorio Flores</h1>
-					<hr class="dotted-line" />
+					<a
+						class="hero-link"
+						href="https://github.com/gregflores"
+						target="_blank"
+						rel="noopener noreferrer"
+						><i class="fab fa-3x fa-github"></i
+					></a>
+					<hr class="dotted-line hero-line" />
+					<a
+						class="hero-link"
+						href="https://www.linkedin.com/in/gregorioflores/"
+						target="_blank"
+						rel="noopener noreferrer"
+						><i class="fab fa-3x fa-linkedin"></i
+					></a>
 					<h2 class="text-margin-40 professional-title">
 						Back-End Developer in Fort Worth, TX
 					</h2>
@@ -63,75 +68,93 @@
 				<hr class="dotted-line" />
 				<div class="text-margin-40 about-me-text">
 					<p>
-						<strong>Howdy!</strong> I have been a back-end developer
-						for 1 year. I am currently maintaining a web application
-						and it's corresponding API. Prior to this, I was an
-						electrical test engineer for almost 3 years. There I
-						honed my coding skills writing Python scripts to improve
-						workflow.
+						<strong>Howdy!</strong> I'm Greg! I have been a back-end
+						developer for 1 year at Xpressdocs, where I currently
+						maintaining and building upon a REST API. Prior to this,
+						I was an electrical test engineer for almost 3 years. I
+						also have experience as a student teacher at Texas A&M.
 					</p>
 					<p>
 						My passion is in learning as much about technology as I
-						can. Currently my focus is in Full-Stack Devlopment, but
-						I would love the chance to work in other fields. I'm
-						currently searching for a remote, software developer
-						position where I can grow under experienced developers,
-						and expand my view of the software development world.
+						can. I'm searching for a remote,
+						<strong>full-stack</strong> developer position where I
+						can expand my knowledge and grow into a leadership role.
 					</p>
 				</div>
 			</div>
 		</div>
-		<div id="skills">
-			<div class="text-max">
-				<h2 class="skills-title">Skills</h2>
-				<hr class="dotted-line" />
-				<div class="text-margin-40 skills-text">
-					<table class="skills-list">
-						<tr>
-							<td>
-								<strong class="skill-subject"
-									>Programming:</strong
-								>
-								NodeJS, Python, VB, TypeScript, Excel VBA, C,
-								C++, PHP
-							</td>
-							<td>
-								<strong class="skill-subject"
-									>Source Control:</strong
-								>
-								GitHub, Bitbucket
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<strong class="skill-subject"
-									>Web Development:</strong
-								>
-								HTML, CSS, JS
-							</td>
-							<td>
-								<strong class="skill-subject">Linux:</strong>
-								Experience with Raspberry PI
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<strong class="skill-subject"
-									>Databases:</strong
-								>
-								MongoDB, MySQL, PostgreSQL
-							</td>
-							<td>
-								<strong class="skill-subject"
-									>Issue Tracking:</strong
-								>
-								Jira
-							</td>
-						</tr>
-					</table>
+		<div id="projects">
+			<h2 class="projects-title">Projects</h2>
+			<hr class="dotted-line" />
+			<div class="project-container">
+				<div class="project-card">
+					<img
+						class="project-img"
+						src="./images/xpressdocs-logo-2.png"
+						alt="Xpressdocs logo"
+					/>
+					<h3>MongoDB to PostgreSQL Application Migration</h3>
+					<p>Xpressdocs</p>
+					<p>
+						I led the migration and redevelopment of a REST API from
+						MongoDB to PostgreSQL. Coordinated multiple teams for
+						testing and implementation.
+					</p>
+				</div>
+				<div class="project-card">
+					<img
+						class="project-img"
+						src="./images/open-cv-logo.png"
+						alt="open cv logo"
+					/>
+					<h3>Game Botting Script</h3>
+					<p>
+						In order to test my abilities with Python, I created a
+						game botting script for a mobile game. The bot uses
+						opencv to view the game and make decision. Created a
+						small gui with tkinter for bot control.
+					</p>
+					<a href="https://github.com/gregflores/MCOCScript"
+						>View Source Here</a
+					>
+				</div>
+				<div class="project-card">
+					<img
+						class="project-img headshot-mini"
+						src="./images/headshot_update.JPG"
+						alt="headshot mini"
+					/>
+					<h3>Gregflores.dev</h3>
+					<p>
+						This website is something I am constantly working on! I
+						want to keep a history of each version of the page as I
+						update it. Created using basic HTML and CSS for now. I
+						want to also include my Javascript games and my React
+						demos in the near future.
+					</p>
+					<a href="https://github.com/gregflores/gregflores.dev"
+						>View Source Here</a
+					>
+				</div>
+				<div class="project-card">
+					<img
+						class="project-img headshot-mini"
+						src="./images/react-logo.png"
+						alt="react logo"
+					/>
+					<h3>Various React Demos</h3>
+					<p>
+						I've spent some time learning React in order to better
+						understand the front end. As such, I've created a few
+						demos along the way.
+					</p>
+					<a href="https://github.com/gregflores/gregflores.dev"
+						>View Source Here</a
+					>
 				</div>
 			</div>
 		</div>
+
 		<div id="experience">
 			<div class="text-max">
 				<h2 class="experience-title">Experience</h2>
@@ -285,157 +308,58 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="projects">
+		<div id="skills">
 			<div class="text-max">
-				<h2 class="projects-title">Projects</h2>
+				<h2 class="skills-title">Skills</h2>
 				<hr class="dotted-line" />
-				<div class="text-margin-40 projects-text">
-					<table>
+				<div class="text-margin-40 skills-text">
+					<table class="skills-list">
 						<tr>
-							<td class="project-name">
-								<strong
-									>MongoDB to PostgreSQL Application
-									Migration</strong
+							<td>
+								<strong class="skill-subject"
+									>Programming:</strong
 								>
-								— Xpressdocs
+								NodeJS, Python, VB, TypeScript, Excel VBA, C,
+								C++, PHP
 							</td>
-						</tr>
-						<tr>
-							<td class="project-details">
-								<ul class="fa-ul">
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Led the migration of an application
-										from MongoDB to PostgreSQL.
-									</li>
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Application is written in TypeScript
-										with the Loopback4 API framework.
-									</li>
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Identified the requirements for the
-										schema and table formats for the
-										PostgreSQL database.
-									</li>
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Modified the application for use with
-										PostgreSQL, while leaving functionality
-										the same for front-end teams using the
-										APIs.
-									</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td class="project-name">
-								<strong>POWR</strong> —
-								<a
-									class="project-link"
-									href="https://github.com/gregflores/POWR"
-									target="_blank"
-									rel="noopener noreferrer"
-									>GitHub</a
+							<td>
+								<strong class="skill-subject"
+									>Source Control:</strong
 								>
+								GitHub, Bitbucket
 							</td>
 						</tr>
 						<tr>
-							<td class="project-details">
-								<ul class="fa-ul">
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Served as the Lead Software Engineer on
-										a Senior Design project.
-									</li>
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Created a python web server to host
-										website. The website displayed
-										information based on statuses of a radio
-										repeater.
-									</li>
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>The relay between the repeater and the
-										website was made with a TI MSP432
-										microcontroller that communicated with
-										the website.
-									</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td class="project-name">
-								<strong>Game Botting Script</strong> —
-								<a
-									class="project-link"
-									href="https://github.com/gregflores/MCOCScript"
-									target="_blank"
-									rel="noopener noreferrer"
-									>GitHub</a
+							<td>
+								<strong class="skill-subject"
+									>Web Development:</strong
 								>
+								HTML, CSS, JS
+							</td>
+							<td>
+								<strong class="skill-subject">Linux:</strong>
+								Experience with Raspberry PI
 							</td>
 						</tr>
 						<tr>
-							<td class="project-details">
-								<ul class="fa-ul">
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Created a botting script for a mobile
-										game.
-									</li>
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>Written in python, using opencv to
-										determine the state of the game. The
-										script then performs the relevant task
-										for the current state of the game.
-									</li>
-									<li>
-										<span class="fa-li"
-											><i
-												class="fas fa-caret-right"
-											></i></span
-										>GUI created using tkinter to start,
-										stop, pause, and end the bot.
-									</li>
-								</ul>
+							<td>
+								<strong class="skill-subject"
+									>Databases:</strong
+								>
+								MongoDB, MySQL, PostgreSQL
+							</td>
+							<td>
+								<strong class="skill-subject"
+									>Issue Tracking:</strong
+								>
+								Jira
 							</td>
 						</tr>
 					</table>
 				</div>
 			</div>
 		</div>
+
 		<div id="contact-me">
 			<div class="text-max">
 				<h2 class="contact-me-title">Get In Touch</h2>
