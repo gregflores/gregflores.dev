@@ -36,7 +36,7 @@ i:hover {
 	border-style: solid;
 	border-width: 10px;
 	border-color: white;
-	/* margin: 30px auto 30px auto; */
+	margin: 30px auto 30px auto;
 }
 
 .name {
@@ -59,7 +59,12 @@ i:hover {
 	border-width: 7px;
 	border-color: #00a1a1;
 	width: 400px;
+
 	/* margin: 100px auto 100px auto; */
+}
+
+.hero-line {
+	display: inline-block;
 }
 
 #about-me {
@@ -213,6 +218,13 @@ h3 {
 	text-decoration: none;
 }
 
+.hero-link {
+	color: #27444b;
+	margin: 10px 20px;
+	display: inline;
+	text-decoration: none;
+}
+
 .project-link {
 	color: #27444b;
 	display: inline-block;
@@ -291,11 +303,40 @@ h3 {
 .projects-title {
 	color: #27444b;
 	padding-top: 40px;
-	text-align: center;
+	/* text-align: center; */
 }
 
 #projects {
-	text-align: left;
-	margin: 0 auto 0 auto;
+	/* text-align: left; */
+	/* margin: 0 auto 0 auto; */
 	background-color: #f4f9f4;
+}
+
+.project-card {
+	width: 300px;
+	height: 500px;
+	border: 1px solid black;
+	box-shadow: #27444b;
+	padding: 10px;
+	margin: 40px auto;
+}
+
+.project-container {
+	padding-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.project-img {
+	width: 100px;
+}
+
+.headshot-mini {
+	/* object-fit: cover; */
+	/* object-position: top; */
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
 }
