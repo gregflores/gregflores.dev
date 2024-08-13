@@ -94,7 +94,7 @@ i:hover {
 	text-align: center;
 }
 
-.date-range {
+.date-range, .hide-small {
 	color: rgb(63, 62, 62);
 	font-size: 0.75rem;
 }
